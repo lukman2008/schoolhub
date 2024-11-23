@@ -1,0 +1,414 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gradient{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 5px;
+}
+ul{
+    display: none;
+}
+.text{
+    color: white;
+    font: 1em sans-serif;
+    font-size: 30px;
+    
+}
+.slap{
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+}
+.btn{
+    margin-top: 20px;
+}
+.button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.button:hover{
+    background-color: navy;
+}
+.check{
+    background-color: blue;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+.check:hover{
+    background-color: navy;
+    color: white;
+}
+
+@media screen and (min-width:300px){
+    .content{
+        text-align: center;
+        background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+        padding-top: 120px;
+        font: 1em sans-serif;
+        color: whitesmoke;
+     
+    }
+    .text{
+        margin-left: 10px;
+    }
+    .button{
+        margin-right: 20px;
+    }
+    .img{
+        height: 18rem;
+    }
+    .top{
+        text-align: center;
+        color: blue;
+        font: 1em sans-serif;
+    }
+    .good{
+        color: black;
+        padding: 5px 10px;
+    }
+.main{
+    margin-top: 30px;
+    
+}
+.border{
+    margin-top: 30px;
+    font: 1em sans-serif;
+}
+.second,.lastly{
+    font: 1em sans-serif;
+}
+.major{
+    display: inline-block;
+    font: 1em sans-serif;
+}
+.bag{
+    margin-top: 30px;
+    display: inline-block;
+    font: 1em sans-serif;
+}
+.lot{
+    margin-left: 20px;
+}
+.size,.big{
+    margin-left: 10px;
+    height: 18rem;
+}
+.close{
+    margin-top: 30px;
+}
+.hub{
+    margin-left: 20px;
+    font: 1em sans-serif;
+}
+.get{
+    margin-top: 30px;
+}
+.lot{
+    display: inline-block;
+}
+.radio{
+    display: inline-block;
+}
+.next{
+    text-align: center;
+}
+
+}
+@media screen and (min-width:700px){
+   .gradient{
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+   .next{
+    text-align: start;
+   }
+    .text{
+        margin-left: 40px;
+    }
+    .btn{
+        margin-right: 40px;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        margin-top: 10px;
+        font: 1em sans-serif;
+        color: white;
+    } 
+    .content{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 8rem;
+        font: 1em sans-serif;
+    }
+    .border{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 0px;
+        font: 1em sans-serif;
+    }
+    .second{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        font: 1em sans-serif;
+    }
+    .lastly{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        font: 1em sans-serif; 
+    }
+    .basic{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .image{
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+    .major{
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        font: 1em sans-serif;
+    }
+    .bag{
+        margin: 0;
+        /* background-color: rgb(248, 234, 234); */
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        font: 1em sans-serif;
+        padding-top: 3rem;
+    }
+    .big{
+        height: 22rem;
+    }
+    .bit{
+        height: 22rem;
+    }
+    .size{
+        height: 25rem;
+    }
+    .close{
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        font: 1em sans-serif;
+        padding-bottom: 30px;
+    }
+    .lot{
+        margin-top: 40px;
+        gap: 8rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .radio{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+.bit{
+    height: 22rem;
+}
+ .main{
+    /* width: 20rem;
+    height: 15rem; */
+    padding: 20px;
+    border-radius: 10px;
+    /* margin-left: 30px; */
+    background-color: white;
+    box-shadow: 1px 4px 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 4px; */
+    text-align: center;
+ }   
+ 
+ .all{
+    height: 4rem;
+    margin-top: 15px;
+ }
+
+.stop{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font: 1em sans-serif;
+    color:white;
+}
+.app{
+    text-align: center;
+    color: blue;
+    font: 1em sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cex{
+    color: blue;
+    font: 1em sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+li{
+    margin-top: 1rem;
+    /* opacity: 50%; */
+}
+.get{
+    color: white;
+    /* background-color: rgb(42, 23, 212); */
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 6rem;
+}
+.white{
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.select{
+    color:  rgb(56, 75, 196);
+    font: 1em sans-serif;
+    padding: 18px 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+.select:hover{
+    background-color: navy;
+    color: white;
+}
+.next{
+    font: 1em sans-serif;
+    /* padding: 60px; */
+}
+
+.phone{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.set{
+    font-size: 20px;
+    text-align: center;
+}
+.let{
+    text-align: center;
+    font: 1em sans-serif;
+    background-image: linear-gradient(to top right, aqua, rgb(56, 56, 226));
+    padding: 50px;
+    color: white;
+    margin-top: 50px;
+}
+.green{
+    height: 5.5rem;
+    margin-top: 30px;
+}
+.food{
+    color: white;
+    font: 1em sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top right, aqua, rgb(56, 56, 226));
+    padding: 50px;
+}
+footer{
+    background-color: rgb(51, 45, 45);
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+   
+}
+.dark-google{
+    height: 3rem;
+    margin-top: 30px;
+}
+.playstore{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:942px){
+    /* .legit{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    } */
+    .major{
+        /* display: inline-block; */
+        gap: 2rem;
+    }
+    .bag{
+        /* display: inline-block; */
+        /* text-align: start; */
+        gap: 2rem;
+    }
+    .close{
+        /* display: inline-block; */
+        gap: 2rem;
+    }
+}
+    .laugh{
+        background-color: rgb(209, 207, 207);
+        padding: auto;
+        padding: 30px;
+}
+.gap{
+    padding: auto;
+    padding: 30px;
+}
+.lox{
+    margin-left: 20px;
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: 30px;
+    color: aqua;
+    text-decoration: underline;
+}
+.group{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: aqua;
+}
+
+.whatsapp{
+    margin-right: 40px;
+    color: green;
+    /* font-size: 50px; */
+    position: fixed;
+    bottom: 0;
+    margin-left: 90rem;
+}
+.what{
+height: 100px;
+}
+.whatsapp:hover{
+    color: green;
+}
+

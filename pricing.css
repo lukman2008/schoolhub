@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.gradient{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+ul{
+    /* display: flex;
+    justify-content: center;
+    list-style: none;
+    font: 1em sans-serif;
+    color: white; */
+    display: none;
+}
+html{
+    /* max-width: 1600px;
+    margin: auto; */
+}
+.list{
+    padding-inline: 7px;
+    margin-top: 30px;
+}
+.text{
+    color: white;
+    font: 1em sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    margin-top: 1px;
+    background-color: blue;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.flex{
+    /* flex-wrap: wrap; */
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    padding-top: 5rem;
+    max-height: 80vh;
+    height: 60vh;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font: 1em sans-serif;
+    color: black;
+    color: white;
+    /* font-size: 30px; */
+}
+.start{
+    font: 1em sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+/* .card{
+    width: 80%;
+    border: 2px dashed red;
+    max-width: 400px;
+    margin-top: 2rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 30px;
+    padding: 2rem;
+    padding-bottom: 15rem;
+    height: 200px;
+    padding-top: 0px;
+    text-align: center;
+    font: 1em sans-serif;
+    
+    
+} */
+.card{
+    width: 20rem;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    color: white;
+    border-radius: 10px;
+    font: 1em sans-serif;
+}
+.set{
+    width: 20rem;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    color: white;
+    border-radius: 10px;
+    font: 1em sans-serif;
+}
+.group{
+    width: 20rem;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    color: white;
+    border-radius: 10px;
+    font: 1em sans-serif;
+}
+/* .tax,.btn,:hover{
+    color: black;
+} */
+.fuck{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+.tend{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+.tax{
+    margin-top: 70px;
+    text-align: center;
+}
+.next{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lack{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    font: 1em sans-serif;
+}
+.cloth{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    font: 1em sans-serif;
+}
+.ten{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;  
+    /* margin-left: 60px; */
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.guess{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    font: 1em sans-serif;
+}
+ @media screen and (min-width:600px) {
+ .row{
+display: flex;  gap: 2rem;
+margin: 10px 10px;    
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font: 1em sans-serif;
+    color: white;
+}
+.leck{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    list-style: none;
+}
+}
+@media screen and (max-width:300px){
+    ul{
+        display: none;
+    }
+    leck{
+        display: inline-block;
+    }
+}
+
+footer{
+    background-color: rgb(26, 22, 22);
+    color: white;
+    padding: 50px;
+    font: 1em sans-serif;
+    padding-bottom: 90px;
+}
+
+/* .leck{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    list-style: none;
+} */
+.sale{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.sal{
+    margin-bottom: 20px;
+}
+.iron{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.iron:hover{
+    color: orange;
+}

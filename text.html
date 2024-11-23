@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Popup Form</title>
+  <style>
+    /* Styling for the button */
+    .popup-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .popup-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Styling for the form container */
+    .form-popup {
+      display: none; /* Hidden by default */
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      width: 300px;
+    }
+
+    /* Close button styling */
+    .close-button {
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 5px 10px;
+      float: right;
+    }
+
+    .form-popup form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-popup input,
+    .form-popup button {
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    /* Overlay */
+    .overlay {
+      display: none; /* Hidden by default */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+  <!-- Button to trigger the form -->
+  <button class="popup-button" onclick="showForm()">Click Me</button>
+
+  <!-- Overlay for background dim effect -->
+  <div class="overlay" id="overlay" onclick="closeForm()"></div>
+
+  <!-- Form popup -->
+  <div class="form-popup" id="popupForm">
+    <button class="close-button" onclick="closeForm()">X</button>
+    <h3>Fill the Form</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    // Show the form
+    function showForm() {
+      document.getElementById("popupForm").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    // Hide the form
+    function closeForm() {
+      document.getElementById("popupForm").style.display = "none";
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script>
+</body>
+</html>

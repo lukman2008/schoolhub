@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.gradient{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0px; */
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font: 1em sans-serif;
+    color: white;
+}
+.list{
+    padding-inline: 7px;
+    margin-top: 10px;
+}
+.text{
+    color: white;
+    font: 1em sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    margin-top: 20px;
+    background-color: blue;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.flex{
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+    padding-top: 5rem;
+    max-height: 80vh;
+    height: 50vh;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font: 1em sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.stop{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font: 1em sans-serif;
+    color:white;
+}
+.sang{
+    background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
+}
+.son{
+    color: red;
+}
