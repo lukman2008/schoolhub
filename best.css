@@ -42,7 +42,8 @@ ul{
 .check{
     background-color: blue;
     border: none;
-    padding: 10px 18px;
+    /* padding: 10px 18px; */
+    padding: 15px 20px 15px 20px;
     border-radius: 20px;
     color: white;
 }
@@ -57,7 +58,10 @@ a:hover{
     background-color: navy;
     color: white;
 }
-
+.yes{
+    font-size: 30px;
+    font-weight: bold;
+}
 @media screen and (min-width:300px){
     .content{
         text-align: center;
@@ -85,9 +89,22 @@ a:hover{
         color: black;
         padding: 5px 10px;
     }
+    .check{
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .img{
+        padding-bottom: 40px;
+    }
+    .gradient{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding: 0px;
+    }
 .main{
     margin-top: 30px;
-    
+    margin: 30px 30px;
 }
 .border{
     margin-top: 30px;
@@ -241,9 +258,7 @@ a:hover{
     height: 15rem; */
     padding: 20px;
     border-radius: 10px;
-    /* margin-left: 30px; */
     background-color: white;
-    /* box-shadow: 1px 4px 4px 8px rgba(0, 0, 0, 0.2); */
     box-shadow: 0 0 4px;
     text-align: center;
  }   
