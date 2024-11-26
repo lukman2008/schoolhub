@@ -366,10 +366,7 @@ li{
     height: 3rem;
     margin-top: 30px;
 }
-.playstore{
-    display: flex;
-    justify-content: center;
-}
+
 @media screen and (max-width:942px){
     .major{
         gap: 2rem;
@@ -426,13 +423,17 @@ footer{
     color: white;
     /* padding: 50px; */
     font: 1em sans-serif;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     padding-top: 3rem;
+}
+.leg,.los{
+    margin-top: 10px;
 }
 .bottom{
     text-align: center;
     background-color: rgb(26, 22, 22);
     color: white;
+    margin-top: 30px;
 }
 .leck{
     margin-left: 3rem;
