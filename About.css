@@ -133,7 +133,7 @@ footer{
 .iron{
     margin-top: 20px;
     font-size: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
 .iron:hover{
     color: orange;
