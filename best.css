@@ -91,7 +91,9 @@ a:hover{
     }
     .check{
         margin-bottom: 30px;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding: 18px 40px;
+        border-radius: 30px;
     }
     .img{
         padding-bottom: 40px;
@@ -360,12 +362,6 @@ li{
     background-image: linear-gradient(to top right, aqua, rgb(56, 56, 226));
     padding: 50px;
 }
-/* footer{
-    background-color: rgb(51, 45, 45);
-    color: white;
-    font: 1em sans-serif;
-   
-} */
 .dark-google{
     height: 3rem;
     margin-top: 30px;
@@ -375,22 +371,13 @@ li{
     justify-content: center;
 }
 @media screen and (max-width:942px){
-    /* .legit{
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-    } */
     .major{
-        /* display: inline-block; */
         gap: 2rem;
     }
     .bag{
-        /* display: inline-block; */
-        /* text-align: start; */
         gap: 2rem;
     }
     .close{
-        /* display: inline-block; */
         gap: 2rem;
     }
 }
@@ -441,6 +428,11 @@ footer{
     font: 1em sans-serif;
     padding-bottom: 60px;
     padding-top: 3rem;
+}
+.bottom{
+    text-align: center;
+    background-color: rgb(26, 22, 22);
+    color: white;
 }
 .leck{
     margin-left: 3rem;
