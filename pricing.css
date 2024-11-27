@@ -19,11 +19,6 @@ body{
     padding-bottom: 20px;
 }
 ul{
-    /* display: flex;
-    justify-content: center;
-    list-style: none;
-    font: 1em sans-serif;
-    color: white; */
     display: none;
 }
 html{
@@ -57,8 +52,8 @@ a{
     /* flex-wrap: wrap; */
     background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
     padding-top: 5rem;
-    max-height: 80vh;
-    height: 60vh;
+    max-height: 90vh;
+    height: 80vh;
     font-size: 30px;
     color: black;
     display: flex;
@@ -76,29 +71,11 @@ a{
     text-align: center;
     margin-top: 30px;
 }
-/* .card{
-    width: 80%;
-    border: 2px dashed red;
-    max-width: 400px;
-    margin-top: 2rem;
-    margin: auto;
-    margin-bottom: 3rem;
-    margin-top: 30px;
-    padding: 2rem;
-    padding-bottom: 15rem;
-    height: 200px;
-    padding-top: 0px;
-    text-align: center;
-    font: 1em sans-serif;
-    
-    
-} */
 .card{
     width: 20rem;
     margin: auto;
     margin-top: 30px;
     padding-bottom: 2rem;
-    margin-top: 30px;
     margin-bottom: 30px;
     background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
     color: white;
@@ -110,7 +87,6 @@ a{
     margin: auto;
     margin-top: 30px;
     padding-bottom: 2rem;
-    margin-top: 30px;
     margin-bottom: 30px;
     background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
     color: white;
@@ -122,7 +98,6 @@ a{
     margin: auto;
     margin-top: 30px;
     padding-bottom: 2rem;
-    margin-top: 30px;
     margin-bottom: 30px;
     background-image: linear-gradient(to top left, aqua, rgb(56, 56, 226));
     color: white;
@@ -198,12 +173,15 @@ margin: 10px 10px;
     list-style: none;
 }
 }
-@media screen and (max-width:300px){
+@media screen and (min-width:300px){
     ul{
         display: none;
     }
     leck{
         display: inline-block;
+    }
+    .card,.set,.group{
+        padding-top: 5px;
     }
 }
 
@@ -215,12 +193,26 @@ footer{
     padding-bottom: 90px;
 }
 
-/* .leck{
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-    list-style: none;
-} */
+.whatsapp{
+    margin-right: 40px;
+    color: green;
+    /* font-size: 50px; */
+    position: fixed;
+    bottom: 0;
+    margin-left: 90rem;
+}
+.what{
+    height: 100px;
+}
+.dark-google{
+    height: 3rem;
+    margin-top: 30px;
+}
+.bottom{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
 .sale{
     margin-bottom: 20px;
     font-weight: bold;

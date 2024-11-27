@@ -123,6 +123,26 @@ footer{
     font: 1em sans-serif;
     padding-bottom: 90px;
 }
+.dark-google{
+    height: 3rem;
+    margin-top: 30px;
+}
+.whatsapp{
+    margin-right: 40px;
+    color: green;
+    /* font-size: 50px; */
+    position: fixed;
+    bottom: 0;
+    margin-left: 90rem;
+}
+.what{
+    height: 100px;
+    }
+.bottom{
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+    }
 .sale{
     margin-bottom: 20px;
     font-weight: bold;

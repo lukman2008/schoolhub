@@ -431,7 +431,6 @@ footer{
 }
 .bottom{
     text-align: center;
-    background-color: rgb(26, 22, 22);
     color: white;
     margin-top: 30px;
 }
@@ -448,7 +447,7 @@ footer{
 .iron{
     margin-top: 20px;
     font-size: 30px;
-    /* text-align: center; */
+    gap: 20px;
 }
 .iron:hover{
     color: orange;
