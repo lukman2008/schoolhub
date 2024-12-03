@@ -38,6 +38,7 @@ ul{
 }
 .button:hover{
     background-color: navy;
+    color: white;
 }
 .check{
     background-color: blue;
@@ -104,53 +105,53 @@ a:hover{
         top: 0;
         padding: 0px;
     }
-.main{
-    margin-top: 30px;
-    margin: 20px 20px;
-}
-.border{
-    margin-top: 30px;
-    font: 1em sans-serif;
-}
-.second,.lastly{
-    font: 1em sans-serif;
-}
-.major{
-    display: inline-block;
-    font: 1em sans-serif;
-}
-.bag{
-    margin-top: 30px;
-    display: inline-block;
-    font: 1em sans-serif;
-}
+    .main{
+        margin-top: 30px;
+        margin: 20px 20px;
+    }
+    .border{
+        margin-top: 30px;
+        font: 1em sans-serif;
+    }
+    .second,.lastly{
+        font: 1em sans-serif;
+    }
+    .major{
+        display: inline-block;
+        font: 1em sans-serif;
+    }
+    .bag{
+        margin-top: 30px;
+        display: inline-block;
+        font: 1em sans-serif;
+    }
 
-.size,.big{
-    margin-left: 10px;
-    height: 18rem;
-}
-.close{
-    margin-top: 30px;
-}
-.hub{
-    margin-left: 20px;
-    font: 1em sans-serif;
-}
-.get{
-    margin-top: 30px;
-}
-.lot{
-    display: inline-block;
-}
-.radio{
-    display: inline-block;
-}
-.next{
-    text-align: center;
-}
-leck{
-    display: inline-block;
-}
+    .size,.big{
+         margin-left: 10px;
+       height: 18rem;
+    }
+    .close{
+        margin-top: 30px;
+    }
+    .hub{
+         margin-left: 20px;
+         font: 1em sans-serif;
+    }
+    .get{
+          margin-top: 30px;
+    }
+    .lot{
+         display: inline-block;
+    }
+    .radio{
+         display: inline-block;
+    }
+    .next{
+         text-align: center;
+    }
+    leck{
+        display: inline-block;
+    }
 }
 @media screen and (min-width:700px){
    .gradient{
