@@ -152,6 +152,26 @@ a:hover{
     leck{
         display: inline-block;
     }
+    .bit{
+        height: 22rem;
+    }
+    .contain{
+        margin: 1rem;
+        
+    }
+    .input,.input1{
+        display: inline-block;
+        
+        height: 2rem;
+        width: 15rem;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .down{
+        width: 22rem;
+    }
 }
 @media screen and (min-width:700px){
    .gradient{
@@ -258,10 +278,27 @@ a:hover{
         gap: 10rem;
         list-style: none;
     }
+    .contain{
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem;
+    }
+    .down{
+        height: 25rem;
+        width: 40rem;
+    }
+    .inpact{
+        display: flex;
+        gap: 30px;
+    }
+    .input,.input1{
+        height: 2rem;
+        width: 15rem;
+        margin: auto;
+        margin: 0;
+    }
 }
-.bit{
-    height: 22rem;
-}
+
  .main{
     /* width: 20rem;
     height: 15rem; */
@@ -451,3 +488,8 @@ footer{
 .iron:hover{
     color: orange;
 }
+
+.contact{
+}
+
+
